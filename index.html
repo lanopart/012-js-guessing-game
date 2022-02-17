@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity #12</title>
+  </head>
+  <body>
+      <div class="container">
+          <header>  
+              <h1>Guessing Game</h1>
+          </header>
+          <div class="innerContainer">
+            <p>We have selected number between 1-20. See if you can guess it in three (3) attempts of fewer.</p>
+            <p>We'll tell you if your guess was too low or too high.</p>
+
+            <form onsubmit="onSubmitHandler(event)">
+                <input type="text" id="input-field" placeholder="Input your guess"/><br>
+                <button type="submit">Submit</button>
+            </form> 
+
+              <div class="results" style="margin-top: 1rem">
+                <div class="attempts-counter">3 attempt/s left</div>
+                <div class="guesses">INSERT GUESSES HERE</div>
+                <div class="indicators">?</div>
+              </div>
+          </div>
+      </div>
+      <script src="app.js"></script>
+  </body>
+</html>

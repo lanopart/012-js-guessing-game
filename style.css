@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.innerContainer {
+    background-color: #dcdbdb;
+    margin: auto;
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    line-height: 2px;
+}
+form, .attempts-counter, .guesses, .indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.submit {
+    padding-left: 10px;
+}
